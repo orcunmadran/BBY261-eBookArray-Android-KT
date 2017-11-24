@@ -11,5 +11,5 @@ class MainActivity : AppCompatActivity() {
     }
 
     val metinler = arrayOf("Sayfa 1", "Sayfa 2", "Sayfa 3")
-    
+
 }
