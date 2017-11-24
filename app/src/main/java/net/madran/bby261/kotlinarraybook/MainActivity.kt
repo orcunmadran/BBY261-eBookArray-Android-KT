@@ -10,14 +10,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        when (2) {
+        when (1) {
             1 -> kitapGorsel.setImageResource(R.drawable.sayfa_01)
             2 -> kitapGorsel.setImageResource(R.drawable.kitap_gorsel)
-            else -> { // Note the block
+            else -> {
 
             }
+
         }
 
-
     }
+
 }
