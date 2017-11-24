@@ -2,14 +2,22 @@ package net.madran.bby261.kotlinarraybook
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        when (2) {
+            1 -> kitapGorsel.setImageResource(R.drawable.sayfa_01)
+            2 -> kitapGorsel.setImageResource(R.drawable.kitap_gorsel)
+            else -> { // Note the block
+
+            }
+        }
+
+
     }
-
-    val metinler = arrayOf("Sayfa 1", "Sayfa 2", "Sayfa 3")
-
 }
